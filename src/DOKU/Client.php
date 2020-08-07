@@ -40,7 +40,7 @@ class Client
         );
 
         if ($params['environment'] == 'development') {
-            $url = 'http://app-sit.doku.com/mandiri-virtual-account/v1/payment-code';
+            $url = 'http://dev.dokupay.com/mandiri-virtual-account/v1/payment-code';
         } else {
             $url = 'http: //app-sit.doku.com/mandiri-virtual-account/v1/payment-code';
         }
