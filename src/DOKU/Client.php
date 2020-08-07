@@ -55,9 +55,9 @@ class Client
 
         if (is_string($responseJson)) {
             // echo json_decode($responseJson, true);
-            print_r($responseJson);
+            return($responseJson);
         } else {
-            print_r($responseJson);
+            return($responseJson);
         }
     }
 }
